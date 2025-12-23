@@ -33,7 +33,7 @@ absences = st.number_input(
 G1 = st.number_input(
     "📝 Nilai G1 (Semester 1)",
     min_value=0.0,
-    max_value=10.0,
+    max_value=20.0,
     value=5.0,
     step=0.5
 )
@@ -41,7 +41,7 @@ G1 = st.number_input(
 G2 = st.number_input(
     "📝 Nilai G2 (Semester 2)",
     min_value=0.0,
-    max_value=10.0,
+    max_value=20.0,
     value=5.0
     step=0.5
 )
