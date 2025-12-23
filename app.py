@@ -35,6 +35,7 @@ G1 = st.number_input(
     min_value=0.0,
     max_value=20.0,
     value=10.0
+    step=0.5
 )
 
 G2 = st.number_input(
@@ -42,6 +43,7 @@ G2 = st.number_input(
     min_value=0.0,
     max_value=20.0,
     value=11.0
+    step=0.5
 )
 
 import pandas as pd
