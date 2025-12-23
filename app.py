@@ -17,15 +17,15 @@ st.subheader("📥 Input Data Akademik")
 studytime = st.number_input(
     "📚 Waktu Belajar per Minggu (jam)",
     min_value=0.0,
-    max_value=10.0,
-    value=3.0,
+    max_value=20.0,
+    value=5.0,
     step=0.5
 )
 
 absences = st.number_input(
     "❌ Jumlah Absensi",
     min_value=0,
-    max_value=16,
+    max_value=100,
     value=3,
     step=1
 )
